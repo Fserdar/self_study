@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms ve inputs</title>
+</head>
+<body>
+    <form>
+        <!-- inputs -->
+        <label for="name">Name</label> <br>
+        <input type="text" name="name" id="name"> <br>
+        
+        <label for="email">E-mail</label> <br>
+        <input type="email" id="email" name="email"> <br>
+        <label for="password">Password</label> <br>
+        <input type="password" id="password" name="password"> <br>
+        
+        <label for="date">Date</label> <br> 
+        <input type="date" id="date" name="date"> <br>
+        
+        Gender <br>
+        Male 
+        <input type="radio" name="gender" value="male" checked> <!-- sayfaya ilk girişte işaretli olarak gözükmesini istiyorsak yanına checked yazmamız gerek -->
+        Female 
+        <input type="radio" name="gender" value="female">
+        Other 
+        <input type="radio" name="gender" value="other"> <br>
+        <!-- Radio buttonlardan farklı olarak check box da birden fazla işaretliyebiliyoruz. -->
+        Hobbies <br>
+        tech
+        <input type="checkbox" id="tech" name="tech">
+        music
+        <input type="checkbox" id="music" name="music">
+        art
+        <input type="checkbox" name="art" id="art"> <br>
+
+        Degree <br>
+        <select name="degree" id="degree">
+            <option value="bachelor" selected>Lisans</option>
+            <option value= "msc">Yüksek Lisans</option>
+            <option value="phd">Doktora</option>
+        </select> <br>
+
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Yazın"></textarea>
+
+        <button type="reset">Sıfırla</button>
+        <input type="submit" value="Submit" >
+    </form>
+</body>
+</html>
