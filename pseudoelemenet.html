@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Pseudo Elements</title>
+    <style>
+        .para1{
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            line-height: 1.5em;
+        }
+        .para1::first-line{
+            color: royalblue;
+        }
+        .para1::first-letter{
+            color: aqua;
+            font-size: 50px;
+        }
+        .para1::after{
+            content: "Paragraf sonrası.";
+
+        }
+        .para1::before{
+            content: url("https://cdn-icons-png.flaticon.com/512/87/87390.png");
+
+        }
+    </style>
+</head>
+<body>
+    <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum doloribus tempore, aspernatur nam modi explicabo cum necessitatibus error nemo asperiores minima harum mollitia animi sed velit ex corrupti quo eveniet Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni reprehenderit voluptatibus sunt iste, esse qui rerum laborum odit facere, quam nisi. Consequatur, ipsam laborum repellat animi esse iste numquam reiciendis!Lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatum inventore aliquam repellendus animi eius pariatur accusamus dicta repudiandae iusto! Eveniet recusandae odit quam aperiam. Numquam atque magnam inventore excepturi!</p>
+</body>
+</html>

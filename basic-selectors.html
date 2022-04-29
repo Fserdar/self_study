@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Selectors</title>
+
+<style>
+
+    /* Tüm h1 leri seç */
+    /* h1{
+        color: red;
+        background-color: blue;
+    }
+    p{
+        color: red;
+        background-color: blue;
+    } */
+    
+    /* h1,p{
+        color: red;
+        background-color: blue;     
+    } */
+
+    /* #logo {
+        color: red;
+        background-color: blue;   id si aynı olanları seçmek için # işareti
+    } */
+
+    /* .info {
+        color: red;   class ı aynı olanlar için . işareti
+    } */
+
+    /* #logo,.lead {
+        color: red;
+        background-color: blue;   id ve classı  ayrı ayrı seçmek için kullanılır
+    } */
+
+    /* #para1.lead {
+        color: red;        id ve classı belli birşey seçmek için , beraber seçmek için kullanılır(arada virgül olmaz.)
+    } */
+
+    /* a{
+        text-decoration: none;  linklerin altındaki çizgiyi kaldırmak için none yazılır
+    } */
+
+    /* ul li a {
+        text-decoration: none;  belli bir yerdeki elemanı seçmek için arada boşluk bırakarak istenilen eleman seçilir.
+    } */
+
+    /* .info span {
+        color: red;
+    } */
+
+    /* .info .primary {
+        color: brown;
+    } */
+
+    * {
+        font-size: 15px;
+    }
+
+</style>
+
+</head>
+<body>
+    <header>
+        <h1>Header 1</h1>
+        <h1 id="logo">Logo</h1>
+
+        <ul>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li><a href="#">Services</a></li>
+        </ul>
+    </header>
+    <h1>Header 2</h1>
+    <p class="lead info">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sequi.
+    </p>
+    <p class="info"> Lorem, ipsum <span class="primary">dolor</span> sit amet consectetur adipisicing elit. Perspiciatis, odio.</p>
+    <p class="info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, voluptate?</p>
+    <p>Test paragraph</p>
+    <a href="#">Home</a>
+</body>
+</html>
