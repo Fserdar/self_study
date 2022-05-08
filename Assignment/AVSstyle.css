@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+/* table{
+    position: relative;
+} */
+
+thead{
+    background-color: rgba(0,0,0,0.75);
+    color: whitesmoke;
+}
+
+.body4, .body5{
+    text-align: right;
+     width: 100px;
+    height: 30px;
+}
+
+.body3{
+    text-align: center;
+}
+
+.sonbody1{
+    text-align: right;
+}
+.sonbody2{
+    text-align: right;
+}
+
+table>tbody>tr:nth-child(odd){
+    background-color: rgba(128,128,128, 0.1);
+    
+}
+.son{
+    background-color: rgba(128,128,128, 0.8);
+    color: white;
+    width: 100px;
+    height: 0px;
+}
+.body2{
+    width: 350px;
+    height: 30px;
+}
+.body1{
+    width: 100px;
+    height: 30px;
+}
+.body6{
+    width: 85px;
+    height: 30px;
+
+}
+.body6>i{
+    text-align: center;
+    margin: 10px;;
+}
+thead>tr>th.body2, .body1{
+    text-align: left;
+}
+
+button{
+    border: none;
+    background-color: orange;
+    height: 40px;
+    width: 150px;
+    text-align:center;
+    cursor: pointer;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    text-indent: 5px;
+    
+    
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 13rem;
+    width: 50%;
+}
+button>a{
+    text-decoration: none ;
+    color: white;
+
+}
+button>a:visited{
+    text-decoration: none;
+    
+}
+button:hover{
+    text-decoration: none;
+    background-color: coral;
+    
+}
+.button1>p::before{
+    content: 🛒
+}
+button.button1>a::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    content: "🛒";
+    color: black;
+    
+}
+
