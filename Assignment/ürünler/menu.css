@@ -1,0 +1,29 @@
+div{
+    display: inline-block;
+}
+
+p{
+    background-color: gray;
+    color: antiquewhite;
+    width: 5rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+div ul{
+    display: none;
+    position: absolute;
+    margin-top: -1rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    border: 1px solid black;
+}
+div:hover ul {
+    display: block ;
+    background-color: rgb(246, 209, 160);
+    
+}
