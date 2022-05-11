@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive CSS Units</title>
+
+    <style>
+        *{
+            margin: 0; padding: 0;
+            box-sizing: border-box;
+        }
+        /* html{
+            font-size: 10px;
+        } */
+        div{
+            font-size: 1.5em;
+        }
+        p{
+            font-size: 1.5em;
+            padding: 1em;
+        }
+        .d2{
+            width: 40vw;  /* sayfanın %40 ı nın kaplar */
+            height: 10vh; /* sayfanın %10 unu kaplar */
+            background: #a7a7a7;
+        }
+        .d3{
+            background: url(../images/pexels-evie-shaffer-11083417.jpg) center center no-repeat;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            color: #a1a1a1;
+            align-items: center;
+            padding: 10rem;
+        }
+        h1{
+            margin-bottom: 1rem;
+            font-size: 3rem;
+        }
+        p{
+            font-size: 2rem;
+            letter-spacing: 2px;
+            
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum nemo molestiae dicta, error provident ducimus obcaecati quod nam nostrum reprehenderit?</p>
+    </div>
+    <div class="d2"></div><br><br>
+    <div class="d3">
+        <h1>Welcome to the site</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, quidem.</p>
+    </div>
+    
+</body>
+</html>
